@@ -5,6 +5,7 @@
 
     <persistence-unit name="test" transaction-type="RESOURCE_LOCAL">
         <class>br.com.sergio.blog.io.entity.UserEntity</class>
+        <class>br.com.sergio.blog.io.entity.PostEntity</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
             <property name="javax.persistence.jdbc.url"    value="jdbc:h2:mem:test" />
